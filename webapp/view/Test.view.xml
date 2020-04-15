@@ -1,0 +1,11 @@
+<mvc:View
+   controllerName="sap.ui.demo.nav.controller.Test"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <MessagePage
+      title="{i18n>Test}"
+      text="{i18n>Test.text}"
+      description="{i18n>Test.description}"
+      showNavButton="true"
+	  navButtonPress="onNavBack" />
+</mvc:View>
