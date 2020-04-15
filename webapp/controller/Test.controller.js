@@ -13,7 +13,8 @@ sap.ui.define([
 			oTarget.attachDisplay(function (oEvent) {
 				this._oData = oEvent.getParameter("data");	// store the data
 			}, this);
-		},
+        }
+        /*,
 
 		// override the parent's onNavBack (inherited from BaseController)
 		onNavBack : function () {
@@ -26,7 +27,8 @@ sap.ui.define([
 
 			// call the parent's onNavBack
 			BaseController.prototype.onNavBack.apply(this, arguments);
-		}
+        }
+        */
 
 		
 	});

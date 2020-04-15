@@ -7,5 +7,6 @@
       text="{i18n>Test.text}"
       description="{i18n>Test.description}"
       showNavButton="true"
-	  navButtonPress="onNavBack" />
+	  navButtonPress="onNavBack"
+      class="sapUiResponsiveContentPadding" />
 </mvc:View>

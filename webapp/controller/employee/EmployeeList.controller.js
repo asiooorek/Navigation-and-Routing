@@ -5,6 +5,15 @@ sap.ui.define([
 
 	return BaseController.extend("sap.ui.demo.nav.controller.employee.EmployeeList", {
 
+		onListItemPressed : function(oEvent){
+			var oItem, oCtx;
+			oItem = oEvent.getSource();
+			oCtx = oItem.getBindingContext();
+			this.getRouter().navTo("employee",{
+				employeeId : oCtx.getProperty("EmployeeID")
+			});
+		}
+
 	});
 
 });
